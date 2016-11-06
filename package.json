@@ -1,0 +1,23 @@
+{
+  "name": "sls-form-mail",
+  "version": "1.0.0",
+  "description": "serverless form mail",
+  "main": "handler.js",
+  "scripts": {
+    "sls": "serverless",
+    "serverless": "serverless",
+    "deploy": "serverless deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "takahashim/sls-form-mail",
+  "author": "takahashim <takahashimm@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "html-entities": "^1.2.0",
+    "qs": "^6.3.0",
+    "serverless": "^1.1.0"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.6.15"
+  }
+}
